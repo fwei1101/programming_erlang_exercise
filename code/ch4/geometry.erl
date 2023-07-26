@@ -4,7 +4,7 @@
 test() ->
     12 = area({rectangle, 3, 4}),
     144 = area({square, 12}),
-    14159 = area({circle, 1}),
+    3.14159 = area({circle, 1}),
     8 = area({right_triangle, 4, 4}),
     tests_succeed.
 
